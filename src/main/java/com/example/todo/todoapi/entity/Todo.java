@@ -3,12 +3,11 @@ package com.example.todo.todoapi.entity;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.GenericGenerator;
-import org.hibernate.annotations.Table;
-import org.springframework.data.annotation.Id;
-
+import javax.persistence.Id;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.Table;
 import java.time.LocalDateTime;
 
 @Setter
